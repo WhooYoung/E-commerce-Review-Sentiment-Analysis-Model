@@ -213,5 +213,16 @@ LONGFORMER_BATCH_SIZE = 1
 
 - 先展示 baseline 流程（稳定、可复现）
 - 再展示 Longformer 在长文本上的优势与限制
+
+
+## 模型文件
+
+由于GitHub对单文件大小有限制（100MB），大模型文件已从仓库中排除。
+
+模型文件位置（本地）：
+- `outputs/best_baseline.pt` - 基础模型（409MB）
+- `outputs/best_longformer.pt` - Longformer模型（420MB）
+
+运行项目时，请确保这些文件在`outputs/`文件夹中。
 - 强调工程完整性：训练、评估、单条预测、批量预测、可视化演示全链路已打通
 
